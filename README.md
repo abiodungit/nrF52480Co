@@ -4,6 +4,8 @@ The Device name to advertise is defined by "DEVICE_NAME " as "COMODL". Advertise
 
 The advertised GPS coordinate is produced in an HEX format and needed to be converted using extended ASCII table to obtain the exact equivalent in alphanumeric format. Due to the lenght of the GPS data, scan response data approach was used in addition to the classic advertisement data. 
 
+Note: main2.c.txt file contains an update version, which implements GPS localisation.
+
 A start code can be obtained from the nRF5_SDK_15.3.0_59ac345 examples.
 
 
